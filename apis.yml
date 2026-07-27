@@ -1,23 +1,69 @@
 aid: headsup
-name: Headsup
-description: Headsup is a company surfaced as a portfolio company of wing-venture-capital and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+name: HeadsUp
+description: >-
+  HeadsUp was an AI conversion engine for product-led growth (PLG) that helped go-to-market
+  teams identify which product-qualified users to engage and when to engage them. It ingested
+  product usage and analytics data (for example from Segment), applied feature engineering and
+  machine-learning scoring to surface conversion, churn, and upsell signals, and synced those
+  insights into sales tooling such as Salesforce so reps could act on in-product behavior without
+  engineering, code, or SQL. Customers included Contentful, Dialpad, and Matillion. HeadsUp was
+  backed by Wing Venture Capital and 645 Ventures and was acquired by composable-CDP company
+  Hightouch in November 2023, after which its team joined Hightouch to work on Customer 360. The
+  standalone headsup.ai product and developer surface have since been wound down; this profile is
+  retained as an acquired-company record in the API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/headsup/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - wing-venture-capital
+- 645-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: hightouch
+x-acquired-date: '2023-11-16'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Product-Led Growth
+- Go-To-Market
+- Sales
+- Product Analytics
+- Customer Data
+- Machine Learning
+- SaaS
+- Acquired
+image: https://avatars.githubusercontent.com/HeadsUpData
 apis: []
+common:
+- type: GitHubOrganization
+  url: https://github.com/HeadsUpData
+- type: Crunchbase
+  url: https://www.crunchbase.com/organization/headsup
+- type: LinkedIn
+  url: https://www.linkedin.com/company/headsupai
+- type: Acquisition
+  url: https://techcrunch.com/2023/11/16/hightouch-acquires-headsup/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
